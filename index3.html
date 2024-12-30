@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUERY</title>
+</head>
+<style>
+
+</style>
+<body>
+    <div id="intro">
+        <h1 style="justify-content: center; display: flex;"> ASK YOUR QUERY'S ! </h1>
+    </div>
+    <form action=" /form-processing-script" method="post">
+        <div style="padding-left: 50px;">
+            <label for="username">USERNAME</label>
+            <input type="text" name="username">
+        </div>
+        <div style="display: flex; justify-content: center; padding-left: 600px;">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password">
+        </div>
+        
+       <div style="padding-top: 100px;">
+        <label>PLEASE PICK UP LOCATION:
+            <select id="location" name="location">
+                <option value="">Select a location</option>
+                <option value="RANCHI">RANCHI</option>
+                <option value="RAMGHAR">RAMGHAR</option>
+                <option value="HAZARIBAGH">HAZARIBAGH</option>
+                <option value="KENKA">DHANBAD</option>
+                <option value="UTTRAKHAND">UTTRAKHAND</option>
+                <option value="DELHI">KODARMA</option>
+                <option value="DELHI">RAJASTHAN</option>
+                <option value="DELHI">DELHI</option>
+            </select>
+        </label>
+    </div>
+    <div style="padding-left: 1000px;">
+    <label>When We Call You? <br>
+        <input type="datetime-local" id="datetime" name="datetime">
+    </label>
+</div> 
+<div>
+    <lable for=" number" >PLEASE ENTER YOUR VALID PHONE NUMBER</lable>
+    <input type="number" name="number">
+</div>   
+
+<div style="display: flex; justify-content: center; padding-top: 150PX;">
+    <label for="question4" style="display: block;">Please Commet Our Questions</label>
+    <textarea name="question4" rows="20" cols="100"> Enter your comment here</textarea>
+</div>
+<div style="display: flex;  justify-content: center;" >
+    <input type="submit" class="submit" value="SUBMIT">
+</div>
+    </form> 
+</body>
+</html>
